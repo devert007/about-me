@@ -1,0 +1,80 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #f5f5f5;
+}
+.main {
+	margin: 0 auto;
+	max-width: 960px;
+}
+.list {
+	margin-top: 65px;
+	float: left;
+	background-color: #fff;
+}
+.addNote {
+	margin-top: 65px;
+	float: right;
+	background-color: #fff;
+}
+.list-head {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700px;
+}
+.items {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+align-items: center;
+}
+.items {
+	min-width: 470px;
+	height: 5036px;
+}
+#list-item {
+	margin-top: 20px;
+	box-shadow: 5px 5px 3px black;
+	background-color: rgb(90, 89, 89);
+	border-radius: 50px;
+	min-width: 470px;
+	min-height: 136px;
+}
+.node-name {
+	margin-top: 20px;
+	padding: 20px 0 20px 30px;
+}
+.node-about {
+	padding: 20px 0 20px 30px;
+	max-height: 100px;
+	max-width: 460px;
+}
+.text {
+	box-shadow: 5px 5px 3px black;
+	margin-top: 40px;
+	min-width: 470px;
+	min-height: 136px;
+	background-color: rgb(92, 92, 92);
+	border-radius: 50px;
+}
+#enter {
+	background-color: transparent;
+
+	min-width: 400px;
+}
+.add-name {
+	margin-top: 20px;
+	padding: 20px 0 20px 30px;
+}
+.add-about {
+	padding: 20px 0 20px 30px;
+	max-height: 100px;
+	max-width: 460px;
+}
+button {
+	margin: 30px 0 0 150px;
+	height: 50px;
+	width: 180px;
+	border-radius: 50px;
+}

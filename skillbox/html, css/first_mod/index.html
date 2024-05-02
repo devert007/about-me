@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>Отправка заявки на конференцию</h1>
+		<h3>Main data</h3>
+		<form>
+			<h4>*Surname,name</h4>
+			<input type="text" required="required" />
+			<h4>Date of birth</h4>
+			<input type="text" placeholder="дд.мм.гггг" maxlength="8" size="10" />
+			<h4>Пол</h4>
+			<input type="radio" name="radio" />мужской&nbsp;
+			<input type="radio" name="radio" />женский&nbsp;
+			<h3>Данные для создания личного кабинета</h3>
+			<h4>*Адрес эл.почты</h4>
+			<input type="email" required="required" />
+			<h4>Пароль для создания личного кабинета</h4>
+			<input type="password" required="required" />
+			<h3>Материалы для конференции</h3>
+			<h4>*Тема доклада</h4>
+			<input type="text" required="required" size="25" />
+			<h4>*Тезисы доклада(не более тысячи символов)</h4>
+			<textarea
+				maxlength="1000"
+				rows="7"
+				cols="23"
+				required="required"
+			></textarea>
+			<h4>Файл презентации</h4>
+			<input type="file" />
+			<h3>Доп. опции</h3>
+			<input type="checkbox" /> Проживание в отеле<br />
+			<input type="checkbox" checked />breakfast<br />
+			<input type="checkbox" /> lunch<br />
+			<input type="checkbox" />dinner<br />
+			<hr />
+			<input type="submit" name="" value="Send results" />
+			<hr />
+			<h5 style="letter-spacing: 1px">
+				<i>* Поля отмеченные звездочкой должны быть заполнены<i/>
+			</h5>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=PT+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import "null-style.scss";
+input {
+	/* Делает само поле ввода прозрачным */
+	background: transparent;
+	/* Убираем рамки вокруг поля ввода */
+	border: none;
+	/* Добавим нижнюю черту для красоты */
+	display: block;
+	width: 100%;
+	font-size: 27px;
+}
+
+.block {
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		90deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(214, 7, 241, 1) 0%,
+		rgba(0, 253, 255, 1) 100%
+	);
+	margin: 200px auto;
+	max-width: 823px;
+	&__name {
+		padding: 50px;
+		text-align: center;
+		font-size: 40px;
+		color: #5b39b9;
+	}
+}
+.registration {
+	margin: 5px 20px 0px 30px;
+	border-radius: 20px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	&__login {
+		padding: 15px 0 0 10px;
+		border-radius: 20px;
+		max-width: 600px;
+		max-height: 50px;
+		border-bottom: 5px solid #e608ea;
+		color: #0ec2b0;
+		&:checked {
+			box-shadow: 5px 5px 10px 10px #e608ea;
+		}
+	}
+
+	&__gmail {
+		padding: 15px 0 0 10px;
+		border-radius: 20px;
+		max-width: 600px;
+		max-height: 50px;
+		border-bottom: 5px solid #e608ea;
+		&:hover {
+			box-shadow: 5px 5px 10px 10px #000;
+		}
+	}
+
+	&__password {
+		padding: 15px 0 0 10px;
+		border-radius: 20px;
+		max-width: 600px;
+		max-height: 50px;
+		border-bottom: 5px solid #e608ea;
+	}
+
+	&__logIN {
+		
+		width: 300px;
+		max-height: 60px;
+		padding: 13px 0 0 0;
+		button {
+			display: block;
+			width: 100%;
+
+			background-color: transparent;
+			font-size: 30px;
+			font-family: "Nanum Myeongjo";
+			color: #78b3c1ea;
+			letter-spacing: 5px;
+		}
+		background: rgb(124, 7, 241);
+		background: linear-gradient(
+			90deg,
+			rgba(124, 7, 241, 1) 0%,
+			rgba(255, 0, 112, 1) 100%
+		);
+		border-radius: 40px;
+	}
+}
+
+.otherway {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin: 20px 20px 50px 20px;
+	&__text {
+		color: #444;
+	}
+
+	&__row {
+	}
+}
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	img,
+	button {
+		max-height: 60px;
+		max-width: 60px;
+		border-radius: 50%;
+		border: none;
+		background: transparent;
+	}
+	&__column1 {
+		margin: 10px 70px 30px 0px;
+	}
+
+	&__column2 {
+		margin: 10px 0px 30px 50px;
+	}
+}
+.column1 {
+	&__facebook {
+		border-radius: 50%;
+	}
+}
+.column2 {
+	&__google {
+	}
+}
